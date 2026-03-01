@@ -35,6 +35,13 @@
   --palette-petal-dim:   rgba(239, 188, 213, 0.2);
   --palette-white:       #f0ede8;  /* slightly warm white, never pure */
 
+  /* Backward-compat: legacy orange aliases → gold equivalents.
+     Some apps still reference --palette-orange-*; these map
+     through to the gold palette so nothing breaks. */
+  --palette-orange-500:  var(--palette-gold);
+  --palette-orange-glow: var(--palette-gold-glow);
+  --palette-orange-dim:  var(--palette-gold-dim);
+
 
   /* ----------------------------------------------------------
      SURFACE (backgrounds, layers, panels)
