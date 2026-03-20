@@ -26,6 +26,12 @@
   --palette-apricot:     #f9d48b;
   --palette-petal:       #efbcd5;
 
+  /* Academy accent — sky blue for learning resources */
+  --palette-sky:         #6DBAED;
+  --palette-sky-dim:     rgba(109, 186, 237, 0.35);
+  --palette-sky-glow:    rgba(109, 186, 237, 0.15);
+  --palette-sky-subtle:  rgba(109, 186, 237, 0.08);
+
   /* Derived palette — lightness steps via opacity */
   --palette-grey-dim:    rgba(103, 105, 124, 0.4);
   --palette-grey-subtle: rgba(103, 105, 124, 0.12);
@@ -74,6 +80,7 @@
   --text-accent:         #E8C05A;
   --text-warm:           #f9d48b;
   --text-soft:           #efbcd5;
+  --text-academy:        #6DBAED;
   --text-inverse:        #09090b;
 
 
@@ -113,6 +120,12 @@
   --interactive-soft-text:           #efbcd5;
   --interactive-soft-border:         rgba(239, 188, 213, 0.25);
 
+  /* Academy interactive — sky blue for educational tools */
+  --interactive-academy-bg:          rgba(109, 186, 237, 0.12);
+  --interactive-academy-bg-hover:    rgba(109, 186, 237, 0.20);
+  --interactive-academy-text:        #6DBAED;
+  --interactive-academy-border:      rgba(109, 186, 237, 0.30);
+
   --interactive-disabled-bg:         rgba(103, 105, 124, 0.08);
   --interactive-disabled-text:       rgba(103, 105, 124, 0.40);
   --interactive-disabled-border:     rgba(103, 105, 124, 0.12);
@@ -139,6 +152,10 @@
   --status-info-bg:        rgba(103, 105, 124, 0.12);
   --status-info-text:      #a8a9b8;
   --status-info-border:    rgba(103, 105, 124, 0.30);
+
+  --status-academy-bg:     rgba(109, 186, 237, 0.12);
+  --status-academy-text:   #6DBAED;
+  --status-academy-border: rgba(109, 186, 237, 0.25);
 
 
   /* ----------------------------------------------------------
@@ -227,6 +244,7 @@
   --glow-accent: 0 0 20px rgba(212, 168, 67, 0.30), 0 0 60px rgba(212, 168, 67, 0.10);
   --glow-warm:   0 0 20px rgba(249, 212, 139, 0.20), 0 0 60px rgba(249, 212, 139, 0.08);
   --glow-soft:   0 0 20px rgba(239, 188, 213, 0.18), 0 0 60px rgba(239, 188, 213, 0.06);
+  --glow-academy: 0 0 20px rgba(109, 186, 237, 0.25), 0 0 60px rgba(109, 186, 237, 0.08);
 
 
   /* ----------------------------------------------------------
