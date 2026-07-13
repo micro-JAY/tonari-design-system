@@ -280,6 +280,9 @@
   /* ----------------------------------------------------------
      APP-SPECIFIC OVERRIDES
      Copy into each app's root CSS and uncomment as needed.
+
+     Preserve approved app-owned semantic palettes during syncs.
+     See "App-owned semantic color systems" in README.md.
      ---------------------------------------------------------- */
 
   /* Beat — deeper black, more electric gold */
